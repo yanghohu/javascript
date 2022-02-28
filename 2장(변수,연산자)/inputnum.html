@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>숫자입력</title>
+</head>
+<body>
+    <script>
+        // prompt를 통해서 입력을 받으면 String타입으로 된다.
+        let input = prompt("숫자를 입력해주세요","숫자");
+        alert(typeof(input));
+
+        let numType = Number(input);
+        alert(typeof(numType)); 
+    </script>
+</body>
+</html>
